@@ -1,0 +1,9 @@
+<?php
+namespace App\Model;
+
+use CodeIgniter\Model;
+
+Class AuthModel extends Model
+{
+    
+}
