@@ -17,7 +17,7 @@
             <div class="fs-5 mt-2 fw-semibold border-bottom pb-3" style="margin-left: 50pt;">About the Journal</div>
             <div class="btn-group">
                 <div class="dropdown-center mt-3" style="margin-left: 50pt;">
-                    <button type="button" class="btn btn-outline-success dropdown-toggle" id="dropdownCenterBtn" data-bs-toggle="dropdown" aria-expanded="false">
+                    <button type="button" class="btn btn-outline-primary dropdown-toggle" id="dropdownCenterBtn" data-bs-toggle="dropdown" aria-expanded="false">
                         People
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownCenterBtn">
@@ -25,7 +25,7 @@
                     </ul>
                 </div>
                 <div class="dropdown-center mt-3" style="margin-left: 50pt;">
-                    <button type="button" class="btn btn-outline-success dropdown-toggle" id="dropdownCenterBtn" data-bs-toggle="dropdown" aria-expanded="false">
+                    <button type="button" class="btn btn-outline-primary dropdown-toggle" id="dropdownCenterBtn" data-bs-toggle="dropdown" aria-expanded="false">
                         Policies
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownCenterBtn">
@@ -34,7 +34,7 @@
                     </ul>
                 </div>
                 <div class="dropdown-center mt-3" style="margin-left: 50pt;">
-                    <button type="button" class="btn btn-outline-success dropdown-toggle" id="dropdownCenterBtn" data-bs-toggle="dropdown" aria-expanded="false">
+                    <button type="button" class="btn btn-outline-primary dropdown-toggle" id="dropdownCenterBtn" data-bs-toggle="dropdown" aria-expanded="false">
                         Submissions
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownCenterBtn">
@@ -43,7 +43,7 @@
                     </ul>
                 </div>
                 <div class="dropdown-center mt-3" style="margin-left: 50pt;">
-                    <button type="button" class="btn btn-outline-success dropdown-toggle" id="dropdownCenterBtn" data-bs-toggle="dropdown" aria-expanded="false">
+                    <button type="button" class="btn btn-outline-primary dropdown-toggle" id="dropdownCenterBtn" data-bs-toggle="dropdown" aria-expanded="false">
                         Other
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownCenterBtn">

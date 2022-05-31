@@ -21,7 +21,7 @@
                     <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
                 </form>
                 <div class="text-end">
-                    <button type="button" class="btn btn-success">Search</button>
+                    <button type="button" class="btn btn-primary">Search</button>
                 </div>
             </div>
             <div class="accordion accordion-flush border-bottom pb-3" id="accordionFlushExample">
@@ -89,7 +89,7 @@
                             <label class="col-form-label ms-4" style="margin-right: 33pt;">All Index Term Fields</label>
                             <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
                         </div>
-                        <button type="button" class="btn btn-success ms-4">Search</button>
+                        <button type="button" class="btn btn-primary ms-4">Search</button>
                     </div>
                 </div>
             </div>

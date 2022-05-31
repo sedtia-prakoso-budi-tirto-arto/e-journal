@@ -35,9 +35,9 @@
                     <input type="checkbox" value="remember-me"> Remember me
                 </label>
             </div>
-            <button class="w-100 btn btn-lg btn-success" type="submit">Sign in</button>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
             <div class="fs-6 mt-2 fw-light">
-                <a href="<?php echo base_url() . '/'; ?>index.php/current" class="link-success">Forgot Password?</a>
+                <a href="<?php echo base_url() . '/'; ?>index.php/current" class="link-primary">Forgot Password?</a>
             </div>
             <p class="mt-5 mb-3 text-muted">&copy; 2022</p>
 

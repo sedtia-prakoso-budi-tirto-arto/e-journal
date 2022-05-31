@@ -9,21 +9,12 @@
                     User
                 </button>
                 <div class="collapse" id="home-collapse">
-                    <form action="<?php echo base_url() . '/index.php/Authenticate/auth'; ?>" method="post" role="form">
-                        <div class="mb-1">
-                            <label for="exampleInputEmail1" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
-                        </div>
-                        <div class="mb-1">
-                            <label for="inputPassword5" class="form-label">Password</label>
-                            <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" required>
-                        </div>
-                        <div class="mb-2 form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Remember me</label>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-sm">Login</button>
-                    </form>
+                    <div class="ms-4 ps-1" style="font-size: 14px;">You are logged in as <strong>Barunanto</strong></div>
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">My Journals</a></li>
+                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">My Profile</a></li>
+                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Log Out</a></li>
+                    </ul>
                 </div>
             </li>
             <li class="mb-1">
@@ -32,8 +23,8 @@
                 </button>
                 <div class="collapse" id="dashboard-collapse">
                     <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">View</a></li>
-                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Subscribe</a></li>
+                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">View (5)</a></li>
+                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Manage</a></li>
                     </ul>
                 </div>
             </li>
