@@ -59,7 +59,7 @@
                             </div>
                             <div class="col">
                                 <div class="accordion-body">
-                                    <a href="#" class="text-decoration-none link-primary fw-normal" style="font-size: 15px;">Archives</a>
+                                    <a href="<?php echo base_url() . '/'; ?>index.php/Submissions/submissionsArchives" class="text-decoration-none link-primary fw-normal" style="font-size: 15px;">Archives</a>
                                 </div>
                             </div>
                         </div>
