@@ -149,5 +149,97 @@
                     </div>
                 </div>
             </div>
+            <table class="table table-primary table-striped mt-1" style="margin-left: 50pt; font-size: 10pt">
+                <tbody style="text-align :center;">
+                    <tr>
+                        <th> ID </th>
+                        <th> MM - DD
+                            SUBMIT
+                        </th>
+                        <th> SEC </th>
+                        <th> AUTHORS </th>
+                        <th> TITLE </th>
+                    </tr>
+                    <tr>
+                        <td>12541</td>
+                        <td>05-24</td>
+                        <td>ART</td>
+                        <td>Niani</td>
+                        <td>test</td>
+                    </tr>
+                    <tr>
+                        <td>12687</td>
+                        <td>05-25</td>
+                        <td>ART</td>
+                        <td>Niani</td>
+                        <td>xczxzcxcz</td>
+                    </tr>
+                    <tr>
+                        <td>12749</td>
+                        <td>05-25</td>
+                        <td>ART</td>
+                        <td>Niani</td>
+                        <td>testing</td>
+                    </tr>
+                    <tr>
+                        <td>12755</td>
+                        <td>04-12</td>
+                        <td>ART</td>
+                        <td>Niani</td>
+                        <td>fg</td>
+                    </tr>
+                    <tr>
+                        <td>12759</td>
+                        <td>04-12</td>
+                        <td>ART</td>
+                        <td>Niani</td>
+                        <td>l</td>
+                    </tr>
+                    <tr>
+                        <td>12808</td>
+                        <td>05-12</td>
+                        <td>ART</td>
+                        <td>Asdad</td>
+                        <td>dsaasd</td>
+                    </tr>
+                    <tr>
+                        <td>12886</td>
+                        <td>05-10</td>
+                        <td>ART</td>
+                        <td>Niani</td>
+                        <td>tes</td>
+                    </tr>
+                    <tr>
+                        <td>12899</td>
+                        <td>05-24</td>
+                        <td>ART</td>
+                        <td>Niani, Camilla</td>
+                        <td>ini judul</td>
+                    </tr>
+                    <tr>
+                        <td>12919</td>
+                        <td>05-12</td>
+                        <td>ART</td>
+                        <td>Niani</td>
+                        <td>wawa</td>
+                    </tr>
+                    <tr>
+                        <td>12920</td>
+                        <td>05-12</td>
+                        <td>ART</td>
+                        <td>Niani</td>
+                        <td>wawa</td>
+                    </tr>
+                    <tr>
+                        <td>12923</td>
+                        <td>05-14</td>
+                        <td>ART</td>
+                        <td>Niani</td>
+                        <td>test</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p style="margin-left: 50pt; margin-top:-10pt; font-size:10pt;">1 - 11 of 11 Items</p>
         </div>
+
     </div>
