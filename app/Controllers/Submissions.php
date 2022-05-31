@@ -21,10 +21,20 @@ class Submissions extends BaseController
         echo view('template/footer');
         return;
     }
+
     public function submissionsInEditting()
     {
         echo view('template/header');
         echo view('submissions_ineditting');
+        echo view('template/sidebar');
+        echo view('template/footer');
+        return;
+    }
+
+    public function submissionsArchives()
+    {
+        echo view('template/header');
+        echo view('submissions_archives');
         echo view('template/sidebar');
         echo view('template/footer');
         return;

@@ -28,11 +28,11 @@
                 <li class="nav-item"> >> </li>
                 <li class="nav-item">
                     <a href=" <?php echo base_url() . '/'; ?>index.php/editor" class="mb-3 link-dark text-decoration-none fs-6 fst-italic">
-                        Unassigned
+                        Archives
                     </a>
                 </li>
             </ul>
-            <div class="fs-5 mt-2 fw-semibold border-bottom pb-3" style="margin-left: 50pt;">Unassigned</div>
+            <div class="fs-5 mt-2 fw-semibold border-bottom pb-3" style="margin-left: 50pt;">Archives</div>
             <div class="accordion accordion-flush border-bottom pb-1" style="margin-left: 50pt;" id="accordionFlushExample">
                 <div class="accordion-item" style="margin-left: -15pt;">
                     <h2 class="accordion-header" id="flush-headingOne">
@@ -181,97 +181,108 @@
                     </div>
                 </div>
             </div>
-            <table class="table table-primary table-striped mt-1" style="margin-left: 50pt; font-size: 10pt">
+            <table class="table mt-1" style="margin-left: 50pt; font-size: 10pt">
                 <tbody style="text-align :center;">
                     <tr>
+                        <th></th>
+                        <th> MM - DD</th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th>PEERREVIEW</th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
                         <th> ID </th>
-                        <th> MM - DD
-                            SUBMIT
-                        </th>
+                        <th>SUBMIT</th>
                         <th> SEC </th>
                         <th> AUTHORS </th>
                         <th> TITLE </th>
+                        <th></th>
+                        <th></th>
+                        <th>ASK</th>
+                        <th>DUE</th>
+                        <th>DONE</th>
+                        <th>RULING</th>
+                        <th>SE</th>
                     </tr>
                     <tr>
-                        <td>12541</td>
-                        <td>05-24</td>
+                        <td>12517</td>
+                        <td>04-05</td>
                         <td>ART</td>
                         <td>Niani</td>
-                        <td><a href="">test</a></td>
+                        <td><a href="">testdt</a></td>
+                        <td></td>
+                        <td></td>
+                        <td>05-29</td>
+                        <td>3</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>BN</td>
                     </tr>
                     <tr>
-                        <td>12687</td>
-                        <td>05-25</td>
+                        <td>12540</td>
+                        <td>03-16</td>
                         <td>ART</td>
                         <td>Niani</td>
-                        <td><a href="">xczxzcxcz</a></td>
+                        <td><a href="">a</a></td>
+                        <td></td>
+                        <td></td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>BN</td>
                     </tr>
-                    <tr>
-                        <td>12749</td>
-                        <td>05-25</td>
+                    <tr style="background-color: #D8E9BD;">
+                        <td>12718</td>
+                        <td>04-07</td>
                         <td>ART</td>
                         <td>Niani</td>
-                        <td><a href="">testing</a></td>
+                        <td><a href="">adasdadaasdd</a></td>
+                        <td></td>
+                        <td></td>
+                        <td>05-29</td>
+                        <td>-</td>
+                        <td>05-29</td>
+                        <td>-</td>
+                        <td>BN</td>
                     </tr>
-                    <tr>
-                        <td>12755</td>
-                        <td>04-12</td>
-                        <td>ART</td>
-                        <td>Niani</td>
-                        <td><a href="">fg</a></td>
-                    </tr>
-                    <tr>
-                        <td>12759</td>
-                        <td>04-12</td>
-                        <td>ART</td>
-                        <td>Niani</td>
-                        <td><a href="">l</a></td>
-                    </tr>
-                    <tr>
-                        <td>12808</td>
+                    <tr style="background-color: #D8E9BD;">
+                        <td>12748</td>
                         <td>05-12</td>
                         <td>ART</td>
-                        <td>Asdad</td>
-                        <td><a href="">dsaasd</a></td>
+                        <td>Ahmad</td>
+                        <td><a href="">halo</a></td>
+                        <td></td>
+                        <td></td>
+                        <td>05-29</td>
+                        <td>-</td>
+                        <td>05-29</td>
+                        <td>-</td>
+                        <td>BN</td>
                     </tr>
                     <tr>
-                        <td>12886</td>
-                        <td>05-10</td>
-                        <td>ART</td>
-                        <td>Niani</td>
-                        <td><a href="">tes</a></td>
-                    </tr>
-                    <tr>
-                        <td>12899</td>
-                        <td>05-24</td>
-                        <td>ART</td>
-                        <td>Niani, Camilla</td>
-                        <td><a href="">ini judul</a></td>
-                    </tr>
-                    <tr>
-                        <td>12919</td>
+                        <td>13027</td>
                         <td>05-12</td>
                         <td>ART</td>
                         <td>Niani</td>
-                        <td><a href="">wawa</a></td>
-                    </tr>
-                    <tr>
-                        <td>12920</td>
-                        <td>05-12</td>
-                        <td>ART</td>
-                        <td>Niani</td>
-                        <td><a href="">wawa</a></td>
-                    </tr>
-                    <tr>
-                        <td>12923</td>
-                        <td>05-14</td>
-                        <td>ART</td>
-                        <td>Niani</td>
-                        <td><a href="">test</a></td>
+                        <td><a href="">Submission 13027</a></td>
+                        <td></td>
+                        <td></td>
+                        <td>05-29</td>
+                        <td>-</td>
+                        <td>05-29</td>
+                        <td>05-29</td>
+                        <td>BN</td>
                     </tr>
                 </tbody>
             </table>
-            <p style="margin-left: 50pt; margin-top:-10pt; font-size:10pt;">1 - 11 of 11 Items</p>
         </div>
 
     </div>
