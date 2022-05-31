@@ -7,7 +7,7 @@ class Submissions extends BaseController
     public function submissionsUnassigned()
     {
         echo view('template/header');
-        echo view('current');
+        echo view('unassigned');
         echo view('template/sidebar');
         echo view('template/footer');
         return;
