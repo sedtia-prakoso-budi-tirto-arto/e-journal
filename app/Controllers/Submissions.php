@@ -6,36 +6,36 @@ class Submissions extends BaseController
 {
     public function submissionsUnassigned()
     {
-        echo view('template/header');
+        echo view('template/header_editor');
         echo view('submissions_unassigned');
-        echo view('template/sidebar');
+        echo view('template/sidebar_editor');
         echo view('template/footer');
         return;
     }
 
     public function submissionsInReview()
     {
-        echo view('template/header');
+        echo view('template/header_editor');
         echo view('submissions_inreview');
-        echo view('template/sidebar');
+        echo view('template/sidebar_editor');
         echo view('template/footer');
         return;
     }
 
     public function submissionsInEditting()
     {
-        echo view('template/header');
+        echo view('template/header_editor');
         echo view('submissions_ineditting');
-        echo view('template/sidebar');
+        echo view('template/sidebar_editor');
         echo view('template/footer');
         return;
     }
 
     public function submissionsArchives()
     {
-        echo view('template/header');
+        echo view('template/header_editor');
         echo view('submissions_archives');
-        echo view('template/sidebar');
+        echo view('template/sidebar_editor');
         echo view('template/footer');
         return;
     }

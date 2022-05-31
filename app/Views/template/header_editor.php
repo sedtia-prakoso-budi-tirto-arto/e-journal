@@ -25,7 +25,7 @@
                 <ul class="nav nav-pills">
                     <li class="nav-item"><a href="<?php echo base_url() . '/'; ?>index.php/home" class="nav-link text-white">Home</a></li>
                     <li class="nav-item"><a href="<?php echo base_url() . '/'; ?>index.php/about" class="nav-link text-white">About</a></li>
-                    <li class="nav-item"><a href="<?php echo base_url() . '/'; ?>index.php/authenticate" class="nav-link text-white">User Home</a></li>
+                    <li class="nav-item"><a href="" class="nav-link text-white">User Home</a></li>
                     <li class="nav-item"><a href="<?php echo base_url() . '/'; ?>index.php/search" class="nav-link text-white">Search</a></li>
                     <li class="nav-item"><a href="<?php echo base_url() . '/'; ?>index.php/Issue/current" class="nav-link text-white">Current</a></li>
                     <li class="nav-item"><a href="<?php echo base_url() . '/'; ?>index.php/Issue/archives" class="nav-link text-white">Archives</a></li>

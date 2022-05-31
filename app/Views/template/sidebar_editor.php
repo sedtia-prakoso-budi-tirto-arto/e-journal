@@ -5,10 +5,10 @@
         </a>
         <ul class="list-unstyled ps-0">
             <li class="mb-1">
-                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false">
+                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#user-collapse" aria-expanded="false">
                     User
                 </button>
-                <div class="collapse" id="home-collapse">
+                <div class="collapse" id="user-collapse">
                     <div class="ms-4 ps-1" style="font-size: 14px;">You are logged in as <strong>Barunanto</strong></div>
                     <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                         <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">My Journals</a></li>
@@ -18,21 +18,50 @@
                 </div>
             </li>
             <li class="mb-1">
-                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+                <div class="ms-4 ps-1" style="font-size: 15px;">EDITOR</div>
+            </li>
+            <li class="mb-1">
+                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#submissions-collapse" aria-expanded="false">
+                    Submissions
+                </button>
+                <div class="collapse" id="submissions-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <li><a href="<?php echo base_url() . '/'; ?>index.php/Submissions/submissionsUnassigned" class="link-dark d-inline-flex text-decoration-none rounded">Unassigned (12)</a></li>
+                        <li><a href="<?php echo base_url() . '/'; ?>index.php/Submissions/submissionsInReview" class="link-dark d-inline-flex text-decoration-none rounded">In Review (5)</a></li>
+                        <li><a href="<?php echo base_url() . '/'; ?>index.php/Submissions/submissionsInEditting" class="link-dark d-inline-flex text-decoration-none rounded">In Editting (5)</a></li>
+                        <li><a href="<?php echo base_url() . '/'; ?>index.php/Submissions/submissionsArchives" class="link-dark d-inline-flex text-decoration-none rounded">Archives</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="mb-1">
+                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#issues-collapse" aria-expanded="false">
+                    Issues
+                </button>
+                <div class="collapse" id="issues-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Create Issue</a></li>
+                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Notify Users</a></li>
+                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Future Issues</a></li>
+                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Back Issues</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="mb-1">
+                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#notifications-collapse" aria-expanded="false">
                     Notifications
                 </button>
-                <div class="collapse" id="dashboard-collapse">
+                <div class="collapse" id="notifications-collapse">
                     <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">View (5)</a></li>
+                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">View (7 new)</a></li>
                         <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Manage</a></li>
                     </ul>
                 </div>
             </li>
             <li class="mb-1">
-                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#jurnal-collapse" aria-expanded="false">
                     Journal Content
                 </button>
-                <div class="collapse" id="orders-collapse">
+                <div class="collapse" id="jurnal-collapse">
                     <label for="exampleDataList" class="form-label"></label>
                     <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search..." style="margin-top: -15pt;">
                     <datalist id=" datalistOptions">

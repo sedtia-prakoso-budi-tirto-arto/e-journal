@@ -181,88 +181,90 @@
                     </div>
                 </div>
             </div>
-            <table class="table mt-1" style="margin-left: 50pt; font-size: 10pt">
-                <tbody style="text-align :center;">
-                    <tr>
-                        <th> ID </th>
-                        <th>MM - DD SUBMIT</th>
-                        <th> SEC </th>
-                        <th> AUTHORS </th>
-                        <th> TITLE </th>
-                        <th></th>
-                        <th></th>
-                        <th>COPY EDIT</th>
-                        <th>LAYOUT</th>
-                        <th>PROOF</th>
-                        <th>SE</th>
-                    </tr>
-                    <tr style="background-color: #EDEBC4;">
-                        <td>12536</td>
-                        <td>03-15</td>
-                        <td>ART</td>
-                        <td>Niani</td>
-                        <td><a href="">test</a></td>
-                        <td></td>
-                        <td></td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>BN</td>
-                    </tr>
-                    <tr style="background-color: #EDEBC4;">
-                        <td>12682</td>
-                        <td>04-05</td>
-                        <td>ART</td>
-                        <td>Niani</td>
-                        <td><a href="">test</a></td>
-                        <td></td>
-                        <td></td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>BN</td>
-                    </tr>
-                    <tr style="background-color: #EDEBC4;">
-                        <td>12892</td>
-                        <td>05-10</td>
-                        <td>ART</td>
-                        <td>Last</td>
-                        <td><a href="">Pemberitahuan</a></td>
-                        <td></td>
-                        <td></td>
-                        <td>05-10</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>BN</td>
-                    </tr>
-                    <tr style="background-color: #EDEBC4;">
-                        <td>12929</td>
-                        <td>05-14</td>
-                        <td>ART</td>
-                        <td>Ahmad</td>
-                        <td><a href="">test</a></td>
-                        <td></td>
-                        <td></td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>BN</td>
-                    </tr>
-                    <tr style="background-color: #EDEBC4;">
-                        <td>13009</td>
-                        <td>05-23</td>
-                        <td>ART</td>
-                        <td>Niani</td>
-                        <td><a href="">coba author</a></td>
-                        <td></td>
-                        <td></td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>BN</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="tabel" style="margin-right: 67px;">
+                <table class="table mt-1" style="margin-left: 50pt; font-size: 10pt">
+                    <tbody style="text-align :center;">
+                        <tr>
+                            <th> ID </th>
+                            <th>MM - DD SUBMIT</th>
+                            <th> SEC </th>
+                            <th> AUTHORS </th>
+                            <th> TITLE </th>
+                            <th></th>
+                            <th></th>
+                            <th>COPY EDIT</th>
+                            <th>LAYOUT</th>
+                            <th>PROOF</th>
+                            <th>SE</th>
+                        </tr>
+                        <tr style="background-color: #EDEBC4;">
+                            <td>12536</td>
+                            <td>03-15</td>
+                            <td>ART</td>
+                            <td>Niani</td>
+                            <td><a href="">test</a></td>
+                            <td></td>
+                            <td></td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>BN</td>
+                        </tr>
+                        <tr style="background-color: #EDEBC4;">
+                            <td>12682</td>
+                            <td>04-05</td>
+                            <td>ART</td>
+                            <td>Niani</td>
+                            <td><a href="">test</a></td>
+                            <td></td>
+                            <td></td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>BN</td>
+                        </tr>
+                        <tr style="background-color: #EDEBC4;">
+                            <td>12892</td>
+                            <td>05-10</td>
+                            <td>ART</td>
+                            <td>Last</td>
+                            <td><a href="">Pemberitahuan</a></td>
+                            <td></td>
+                            <td></td>
+                            <td>05-10</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>BN</td>
+                        </tr>
+                        <tr style="background-color: #EDEBC4;">
+                            <td>12929</td>
+                            <td>05-14</td>
+                            <td>ART</td>
+                            <td>Ahmad</td>
+                            <td><a href="">test</a></td>
+                            <td></td>
+                            <td></td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>BN</td>
+                        </tr>
+                        <tr style="background-color: #EDEBC4;">
+                            <td>13009</td>
+                            <td>05-23</td>
+                            <td>ART</td>
+                            <td>Niani</td>
+                            <td><a href="">coba author</a></td>
+                            <td></td>
+                            <td></td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>BN</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
             <p style="margin-left: 50pt; margin-top:-10pt; font-size:10pt;">1 - 05 of 5 Items</p>
             <div class="note mt-4" style="margin-left:50pt;">
                 <p class="fs-5 fw-semibold">Notes</p>

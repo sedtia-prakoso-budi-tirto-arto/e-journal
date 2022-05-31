@@ -181,108 +181,110 @@
                     </div>
                 </div>
             </div>
-            <table class="table mt-1" style="margin-left: 50pt; font-size: 10pt">
-                <tbody style="text-align :center;">
-                    <tr>
-                        <th></th>
-                        <th> MM - DD</th>
-                        <th></th>
-                        <th></th>
-                        <th></th>
-                        <th></th>
-                        <th></th>
-                        <th>PEERREVIEW</th>
-                        <th></th>
-                        <th></th>
-                        <th></th>
-                        <th></th>
-                    </tr>
-                    <tr>
-                        <th> ID </th>
-                        <th>SUBMIT</th>
-                        <th> SEC </th>
-                        <th> AUTHORS </th>
-                        <th> TITLE </th>
-                        <th></th>
-                        <th></th>
-                        <th>ASK</th>
-                        <th>DUE</th>
-                        <th>DONE</th>
-                        <th>RULING</th>
-                        <th>SE</th>
-                    </tr>
-                    <tr>
-                        <td>12517</td>
-                        <td>04-05</td>
-                        <td>ART</td>
-                        <td>Niani</td>
-                        <td><a href="">testdt</a></td>
-                        <td></td>
-                        <td></td>
-                        <td>05-29</td>
-                        <td>3</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>BN</td>
-                    </tr>
-                    <tr>
-                        <td>12540</td>
-                        <td>03-16</td>
-                        <td>ART</td>
-                        <td>Niani</td>
-                        <td><a href="">a</a></td>
-                        <td></td>
-                        <td></td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>-</td>
-                        <td>BN</td>
-                    </tr>
-                    <tr style="background-color: #D8E9BD;">
-                        <td>12718</td>
-                        <td>04-07</td>
-                        <td>ART</td>
-                        <td>Niani</td>
-                        <td><a href="">adasdadaasdd</a></td>
-                        <td></td>
-                        <td></td>
-                        <td>05-29</td>
-                        <td>-</td>
-                        <td>05-29</td>
-                        <td>-</td>
-                        <td>BN</td>
-                    </tr>
-                    <tr style="background-color: #D8E9BD;">
-                        <td>12748</td>
-                        <td>05-12</td>
-                        <td>ART</td>
-                        <td>Ahmad</td>
-                        <td><a href="">halo</a></td>
-                        <td></td>
-                        <td></td>
-                        <td>05-29</td>
-                        <td>-</td>
-                        <td>05-29</td>
-                        <td>-</td>
-                        <td>BN</td>
-                    </tr>
-                    <tr>
-                        <td>13027</td>
-                        <td>05-12</td>
-                        <td>ART</td>
-                        <td>Niani</td>
-                        <td><a href="">Submission 13027</a></td>
-                        <td></td>
-                        <td></td>
-                        <td>05-29</td>
-                        <td>-</td>
-                        <td>05-29</td>
-                        <td>05-29</td>
-                        <td>BN</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="tabel" style="margin-right: 67px;">
+                <table class="table mt-1" style="margin-left: 50pt; font-size: 10pt">
+                    <tbody style="text-align :center;">
+                        <tr>
+                            <th></th>
+                            <th> MM - DD</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th>PEERREVIEW</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <th> ID </th>
+                            <th>SUBMIT</th>
+                            <th> SEC </th>
+                            <th> AUTHORS </th>
+                            <th> TITLE </th>
+                            <th></th>
+                            <th></th>
+                            <th>ASK</th>
+                            <th>DUE</th>
+                            <th>DONE</th>
+                            <th>RULING</th>
+                            <th>SE</th>
+                        </tr>
+                        <tr>
+                            <td>12517</td>
+                            <td>04-05</td>
+                            <td>ART</td>
+                            <td>Niani</td>
+                            <td><a href="">testdt</a></td>
+                            <td></td>
+                            <td></td>
+                            <td>05-29</td>
+                            <td>3</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>BN</td>
+                        </tr>
+                        <tr>
+                            <td>12540</td>
+                            <td>03-16</td>
+                            <td>ART</td>
+                            <td>Niani</td>
+                            <td><a href="">a</a></td>
+                            <td></td>
+                            <td></td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>BN</td>
+                        </tr>
+                        <tr style="background-color: #D8E9BD;">
+                            <td>12718</td>
+                            <td>04-07</td>
+                            <td>ART</td>
+                            <td>Niani</td>
+                            <td><a href="">adasdadaasdd</a></td>
+                            <td></td>
+                            <td></td>
+                            <td>05-29</td>
+                            <td>-</td>
+                            <td>05-29</td>
+                            <td>-</td>
+                            <td>BN</td>
+                        </tr>
+                        <tr style="background-color: #D8E9BD;">
+                            <td>12748</td>
+                            <td>05-12</td>
+                            <td>ART</td>
+                            <td>Ahmad</td>
+                            <td><a href="">halo</a></td>
+                            <td></td>
+                            <td></td>
+                            <td>05-29</td>
+                            <td>-</td>
+                            <td>05-29</td>
+                            <td>-</td>
+                            <td>BN</td>
+                        </tr>
+                        <tr>
+                            <td>13027</td>
+                            <td>05-12</td>
+                            <td>ART</td>
+                            <td>Niani</td>
+                            <td><a href="">Submission 13027</a></td>
+                            <td></td>
+                            <td></td>
+                            <td>05-29</td>
+                            <td>-</td>
+                            <td>05-29</td>
+                            <td>05-29</td>
+                            <td>BN</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
 
     </div>
