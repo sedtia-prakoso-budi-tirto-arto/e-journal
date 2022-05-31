@@ -198,7 +198,7 @@
                             <td>05-24</td>
                             <td>ART</td>
                             <td>Niani</td>
-                            <td><a href="">test</a></td>
+                            <td><a href="<?php echo base_url() . '/'; ?>index.php/Submissions/Summary12541">test</a></td>
                         </tr>
                         <tr>
                             <td>12687</td>
