@@ -28,11 +28,11 @@
                 <li class="nav-item"> >> </li>
                 <li class="nav-item">
                     <a href=" <?php echo base_url() . '/'; ?>index.php/editor" class="mb-3 link-dark text-decoration-none fs-6 fst-italic">
-                        in Review
+                        in Editting
                     </a>
                 </li>
             </ul>
-            <div class="fs-5 mt-2 fw-semibold border-bottom pb-3" style="margin-left: 50pt;">Submissions in Review</div>
+            <div class="fs-5 mt-2 fw-semibold border-bottom pb-3" style="margin-left: 50pt;">Submissions in Editting</div>
             <div class="accordion accordion-flush border-bottom pb-1" style="margin-left: 50pt;" id="accordionFlushExample">
                 <div class="accordion-item" style="margin-left: -15pt;">
                     <h2 class="accordion-header" id="flush-headingOne">
@@ -184,101 +184,81 @@
             <table class="table mt-1" style="margin-left: 50pt; font-size: 10pt">
                 <tbody style="text-align :center;">
                     <tr>
-                        <th></th>
-                        <th> MM - DD</th>
-                        <th></th>
-                        <th></th>
-                        <th></th>
-                        <th></th>
-                        <th></th>
-                        <th>PEERREVIEW</th>
-                        <th></th>
-                        <th></th>
-                        <th></th>
-                        <th></th>
-                    </tr>
-                    <tr>
                         <th> ID </th>
-                        <th>SUBMIT</th>
+                        <th>MM - DD SUBMIT</th>
                         <th> SEC </th>
                         <th> AUTHORS </th>
                         <th> TITLE </th>
                         <th></th>
                         <th></th>
-                        <th>ASK</th>
-                        <th>DUE</th>
-                        <th>DONE</th>
-                        <th>RULING</th>
+                        <th>COPY EDIT</th>
+                        <th>LAYOUT</th>
+                        <th>PROOF</th>
                         <th>SE</th>
                     </tr>
-                    <tr>
-                        <td>12517</td>
+                    <tr style="background-color: #EDEBC4;">
+                        <td>12536</td>
+                        <td>03-15</td>
+                        <td>ART</td>
+                        <td>Niani</td>
+                        <td><a href="">test</a></td>
+                        <td></td>
+                        <td></td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>BN</td>
+                    </tr>
+                    <tr style="background-color: #EDEBC4;">
+                        <td>12682</td>
                         <td>04-05</td>
                         <td>ART</td>
                         <td>Niani</td>
-                        <td><a href="">testdt</a></td>
+                        <td><a href="">test</a></td>
                         <td></td>
                         <td></td>
-                        <td>05-29</td>
-                        <td>3</td>
+                        <td>-</td>
                         <td>-</td>
                         <td>-</td>
                         <td>BN</td>
                     </tr>
-                    <tr>
-                        <td>12540</td>
-                        <td>03-16</td>
+                    <tr style="background-color: #EDEBC4;">
+                        <td>12892</td>
+                        <td>05-10</td>
                         <td>ART</td>
-                        <td>Niani</td>
-                        <td><a href="">a</a></td>
+                        <td>Last</td>
+                        <td><a href="">Pemberitahuan</a></td>
                         <td></td>
                         <td></td>
-                        <td>-</td>
-                        <td>-</td>
+                        <td>05-10</td>
                         <td>-</td>
                         <td>-</td>
                         <td>BN</td>
                     </tr>
-                    <tr style="background-color: #D8E9BD;">
-                        <td>12718</td>
-                        <td>04-07</td>
-                        <td>ART</td>
-                        <td>Niani</td>
-                        <td><a href="">adasdadaasdd</a></td>
-                        <td></td>
-                        <td></td>
-                        <td>05-29</td>
-                        <td>-</td>
-                        <td>05-29</td>
-                        <td>-</td>
-                        <td>BN</td>
-                    </tr>
-                    <tr style="background-color: #D8E9BD;">
-                        <td>12748</td>
-                        <td>05-12</td>
+                    <tr style="background-color: #EDEBC4;">
+                        <td>12929</td>
+                        <td>05-14</td>
                         <td>ART</td>
                         <td>Ahmad</td>
-                        <td><a href="">halo</a></td>
+                        <td><a href="">test</a></td>
                         <td></td>
                         <td></td>
-                        <td>05-29</td>
                         <td>-</td>
-                        <td>05-29</td>
+                        <td>-</td>
                         <td>-</td>
                         <td>BN</td>
                     </tr>
-                    <tr>
-                        <td>13027</td>
-                        <td>05-12</td>
+                    <tr style="background-color: #EDEBC4;">
+                        <td>13009</td>
+                        <td>05-23</td>
                         <td>ART</td>
                         <td>Niani</td>
-                        <td><a href="">Submission 13027</a></td>
+                        <td><a href="">coba author</a></td>
                         <td></td>
                         <td></td>
-                        <td>05-29</td>
                         <td>-</td>
-                        <td>05-29</td>
-                        <td>05-29</td>
+                        <td>-</td>
+                        <td>-</td>
                         <td>BN</td>
                     </tr>
                 </tbody>
@@ -287,13 +267,10 @@
             <div class="note mt-4" style="margin-left:50pt;">
                 <p class="fs-5 fw-semibold">Notes</p>
                 <ul style="font-size:10pt;">1. Highlighted items indicate action is required by an editor, labelled as follows:
-                    <li class="ms-5" style="background-color: #EDEBC4;">A Reviewer has been assigned but not notified by email</li>
-                    <li class="ms-5" style="background-color: #D8E9BD;">All Reviewers have returned with their comments, but no decision is recorded</li>
-                    <li class="ms-5" style="background-color: #C6EBE4;">Author has uploaded a revised manuscript</li>
-                    <li class="ms-5" style="background-color: #9DD1E6;">Reviewer is overdue to confirm peer review invitation</li>
-                    <li class="ms-5" style="background-color: #74C5D8;">Reviewer is overdue to complete review</li>
+                    <li class="ms-5" style="background-color: #EDEBC4;">An action is required in the copyediting stage</li>
+                    <li class="ms-5" style="background-color: #D8E9BD;">An action is required in the layout editing stage</li>
+                    <li class="ms-5" style="background-color: #C6EBE4;">An action is required in the proofreading stage</li>
                 </ul>
-                <ul style="font-size:10pt;">2. "Due" is filled in when reviewer accepts request to review; it displays number of weeks to review's due date or (-) weeks that it is overdue.</ul>
             </div>
         </div>
 
