@@ -165,77 +165,77 @@
                         <td>05-24</td>
                         <td>ART</td>
                         <td>Niani</td>
-                        <td>test</td>
+                        <td><a href="">test</a></td>
                     </tr>
                     <tr>
                         <td>12687</td>
                         <td>05-25</td>
                         <td>ART</td>
                         <td>Niani</td>
-                        <td>xczxzcxcz</td>
+                        <td><a href="">xczxzcxcz</a></td>
                     </tr>
                     <tr>
                         <td>12749</td>
                         <td>05-25</td>
                         <td>ART</td>
                         <td>Niani</td>
-                        <td>testing</td>
+                        <td><a href="">testing</a></td>
                     </tr>
                     <tr>
                         <td>12755</td>
                         <td>04-12</td>
                         <td>ART</td>
                         <td>Niani</td>
-                        <td>fg</td>
+                        <td><a href="">fg</a></td>
                     </tr>
                     <tr>
                         <td>12759</td>
                         <td>04-12</td>
                         <td>ART</td>
                         <td>Niani</td>
-                        <td>l</td>
+                        <td><a href="">l</a></td>
                     </tr>
                     <tr>
                         <td>12808</td>
                         <td>05-12</td>
                         <td>ART</td>
                         <td>Asdad</td>
-                        <td>dsaasd</td>
+                        <td><a href="">dsaasd</a></td>
                     </tr>
                     <tr>
                         <td>12886</td>
                         <td>05-10</td>
                         <td>ART</td>
                         <td>Niani</td>
-                        <td>tes</td>
+                        <td><a href="">tes</a></td>
                     </tr>
                     <tr>
                         <td>12899</td>
                         <td>05-24</td>
                         <td>ART</td>
                         <td>Niani, Camilla</td>
-                        <td>ini judul</td>
+                        <td><a href="">ini judul</a></td>
                     </tr>
                     <tr>
                         <td>12919</td>
                         <td>05-12</td>
                         <td>ART</td>
                         <td>Niani</td>
-                        <td>wawa</td>
+                        <td><a href="">wawa</a></td>
                     </tr>
                     <tr>
                         <td>12920</td>
                         <td>05-12</td>
                         <td>ART</td>
                         <td>Niani</td>
-                        <td>wawa</td>
+                        <td><a href="">wawa</a></td>
                     </tr>
                     <tr>
                         <td>12923</td>
                         <td>05-14</td>
                         <td>ART</td>
                         <td>Niani</td>
-                        <td>test</td>
+                        <td><a href="">test</a></td>
                     </tr>
                 </tbody>
             </table>
