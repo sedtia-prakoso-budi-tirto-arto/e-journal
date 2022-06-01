@@ -42,19 +42,19 @@
             <div class="link" style="margin-left: 50pt;">
                 <div class="row" style="text-align:center;">
                     <div class="col">
-                        <a href="" style="font-size: 10pt;" class="text-decoration-none">SUMMARY</a>
+                        <a href="<?php echo base_url() . '/'; ?>index.php/Submissions/Summary12541" style=" font-size: 10pt;" class="text-decoration-none">SUMMARY</a>
                     </div>
                     <div class="col">
-                        <a href="" style="font-size: 10pt;" class="text-decoration-none">REVIEW</a>
+                        <a href="<?php echo base_url() . '/'; ?>index.php/Submissions/Review12541" style="font-size: 10pt;" class="text-decoration-none">REVIEW</a>
                     </div>
                     <div class="col">
-                        <a href="" style="font-size: 10pt;" class="text-decoration-none">EDITTING</a>
+                        <a href="<?php echo base_url() . '/'; ?>index.php/Submissions/Editting12541" style="font-size: 10pt;" class="text-decoration-none">EDITTING</a>
                     </div>
                     <div class="col">
-                        <a href="" style="font-size: 10pt;" class="text-decoration-none">HISTORY</a>
+                        <a href="<?php echo base_url() . '/'; ?>index.php/Submissions/History12541" style="font-size: 10pt;" class="text-decoration-none">HISTORY</a>
                     </div>
                     <div class="col">
-                        <a href="" style="font-size: 10pt;" class="text-decoration-none">REFERENCES</a>
+                        <a href="<?php echo base_url() . '/'; ?>index.php/Submissions/References12541" style="font-size: 10pt;" class="text-decoration-none">REFERENCES</a>
                     </div>
                 </div>
             </div>

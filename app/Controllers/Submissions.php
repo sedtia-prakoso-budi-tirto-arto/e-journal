@@ -48,4 +48,13 @@ class Submissions extends BaseController
         echo view('template/footer');
         return;
     }
+
+    public function Review12541()
+    {
+        echo view('template/header_editor');
+        echo view('review_12541');
+        echo view('template/sidebar_editor');
+        echo view('template/footer');
+        return;
+    }
 }
