@@ -40,7 +40,7 @@ class Submissions extends BaseController
         return;
     }
 
-    public function Summary12541()
+    public function SubmissionSummary12541()
     {
         echo view('template/header_editor');
         echo view('summary_12541');
@@ -49,10 +49,19 @@ class Submissions extends BaseController
         return;
     }
 
-    public function Review12541()
+    public function SubmissionReview12541()
     {
         echo view('template/header_editor');
         echo view('review_12541');
+        echo view('template/sidebar_editor');
+        echo view('template/footer');
+        return;
+    }
+
+    public function SubmissionEditing12541()
+    {
+        echo view('template/header_editor');
+        echo view('editing_12541');
         echo view('template/sidebar_editor');
         echo view('template/footer');
         return;

@@ -39,6 +39,25 @@
                 </li>
             </ul>
             <div class="fs-5 mt-2 fw-semibold border-bottom pb-3" style="margin-left: 50pt;">#12541 Review</div>
+            <div class="link" style="margin-left: 50pt;">
+                <div class="row" style="text-align:center;">
+                    <div class="col">
+                        <a href="<?php echo base_url() . '/'; ?>index.php/Submissions/SubmissionSummary12541" style=" font-size: 10pt;" class="text-decoration-none">SUMMARY</a>
+                    </div>
+                    <div class="col">
+                        <a href="<?php echo base_url() . '/'; ?>index.php/Submissions/SubmissionReview12541" style="font-size: 10pt;" class="text-decoration-none">REVIEW</a>
+                    </div>
+                    <div class="col">
+                        <a href="<?php echo base_url() . '/'; ?>index.php/Submissions/SubmissionEditing12541" style="font-size: 10pt;" class="text-decoration-none">EDITTING</a>
+                    </div>
+                    <div class="col">
+                        <a href="<?php echo base_url() . '/'; ?>index.php/Submissions/SubmissionHistory12541" style="font-size: 10pt;" class="text-decoration-none">HISTORY</a>
+                    </div>
+                    <div class="col">
+                        <a href="<?php echo base_url() . '/'; ?>index.php/Submissions/SubmissionReferences12541" style="font-size: 10pt;" class="text-decoration-none">REFERENCES</a>
+                    </div>
+                </div>
+            </div>
             <div class="fs-5 mt-3 fw-semibold pb-2" style="margin-left: 50pt;">Submission</div>
             <div class="tabel" style="margin-right: 67px;">
                 <table class="table" style="margin-left: 45pt; font-size: 10pt;">
@@ -111,7 +130,7 @@
                     <div class="col">None / Free Form Review</div>
                     <div class="col"><a href="" class="text-decoration-none" style="font-size:10pt;">Select Review Form</a></div>
                 </div>
-                <div class="row mt-2" style="font-size:10pt; margin-left:236px;">
+                <div class="row mt-2" style="font-size:10pt; margin-left:238px;">
                     <div class="col">REQUEST</div>
                     <div class="col">UNDERWAY</div>
                     <div class="col">DUE</div>
@@ -158,8 +177,7 @@
                         <tr style="border-style: hidden !important;">
                             <td colspan="2">Review Version</td>
                             <td colspan="3"><a href="" class="text-decoration-none">12541-32572-1-RV.pdf</a></td>
-                            <td></td>
-                            <td colspan="2">2022-05-24</td>
+                            <td colspan="5">2022-05-24</td>
                         </tr>
                         <tr style="border-style: hidden !important;">
                             <td colspan="2">Author Version</td>
