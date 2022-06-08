@@ -3,31 +3,31 @@
         <div class="p-3 bg-white position-sticky">
             <ul class="nav border-bottom" style="padding-bottom: 16pt; margin-left:50pt;">
                 <li class="nav-item">
-                    <a href=" <?php echo base_url() . '/'; ?>index.php/home" class="mb-3 link-dark text-decoration-none fs-6 fst-italic">
+                    <a href=" <?php echo base_url() . '/'; ?>home" class="mb-3 link-dark text-decoration-none fs-6 fst-italic">
                         Home
                     </a>
                 </li>
                 <li class="nav-item"> >> </li>
                 <li class="nav-item">
-                    <a href=" <?php echo base_url() . '/'; ?>index.php/home" class="mb-3 link-dark text-decoration-none fs-6 fst-italic">
+                    <a href=" <?php echo base_url() . '/'; ?>home" class="mb-3 link-dark text-decoration-none fs-6 fst-italic">
                         User
                     </a>
                 </li>
                 <li class="nav-item"> >> </li>
                 <li class="nav-item">
-                    <a href=" <?php echo base_url() . '/'; ?>index.php/editor" class="mb-3 link-dark text-decoration-none fs-6 fst-italic">
+                    <a href=" <?php echo base_url() . '/'; ?>editor" class="mb-3 link-dark text-decoration-none fs-6 fst-italic">
                         Editor
                     </a>
                 </li>
                 <li class="nav-item"> >> </li>
                 <li class="nav-item">
-                    <a href=" <?php echo base_url() . '/'; ?>index.php/editor" class="mb-3 link-dark text-decoration-none fs-6 fst-italic">
+                    <a href=" <?php echo base_url() . '/'; ?>editor" class="mb-3 link-dark text-decoration-none fs-6 fst-italic">
                         Submissions
                     </a>
                 </li>
                 <li class="nav-item"> >> </li>
                 <li class="nav-item">
-                    <a href=" <?php echo base_url() . '/'; ?>index.php/editor" class="mb-3 link-dark text-decoration-none fs-6 fst-italic">
+                    <a href=" <?php echo base_url() . '/'; ?>editor" class="mb-3 link-dark text-decoration-none fs-6 fst-italic">
                         Unassigned
                     </a>
                 </li>
@@ -44,22 +44,22 @@
                         <div class="row">
                             <div class="col">
                                 <div class="accordion-body">
-                                    <a href="<?php echo base_url() . '/'; ?>index.php/Submissions/submissionsUnassigned" class="text-decoration-none link-primary fw-normal" style="font-size: 15px;">Unassigned (12)</a>
+                                    <a href="<?php echo base_url() . '/'; ?>Submissions/submissionsUnassigned" class="text-decoration-none link-primary fw-normal" style="font-size: 15px;">Unassigned (12)</a>
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="accordion-body">
-                                    <a href="<?php echo base_url() . '/'; ?>index.php/Submissions/submissionsInReview" class="text-decoration-none link-primary fw-normal" style="font-size: 15px;">In Review (5)</a>
+                                    <a href="<?php echo base_url() . '/'; ?>Submissions/submissionsInReview" class="text-decoration-none link-primary fw-normal" style="font-size: 15px;">In Review (5)</a>
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="accordion-body">
-                                    <a href="<?php echo base_url() . '/'; ?>index.php/Submissions/submissionsInEditting" class="text-decoration-none link-primary fw-normal" style="font-size: 15px;">In Editting (4)</a>
+                                    <a href="<?php echo base_url() . '/'; ?>Submissions/submissionsInEditting" class="text-decoration-none link-primary fw-normal" style="font-size: 15px;">In Editting (4)</a>
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="accordion-body">
-                                    <a href="<?php echo base_url() . '/'; ?>index.php/Submissions/submissionsArchives" class="text-decoration-none link-primary fw-normal" style="font-size: 15px;">Archives</a>
+                                    <a href="<?php echo base_url() . '/'; ?>Submissions/submissionsArchives" class="text-decoration-none link-primary fw-normal" style="font-size: 15px;">Archives</a>
                                 </div>
                             </div>
                         </div>
@@ -198,7 +198,7 @@
                             <td>05-24</td>
                             <td>ART</td>
                             <td>Niani</td>
-                            <td><a href="<?php echo base_url() . '/'; ?>index.php/Submissions/Summary12541">test</a></td>
+                            <td><a href="<?php echo base_url() . '/'; ?>Submissions/Summary12541">test</a></td>
                         </tr>
                         <tr>
                             <td>12687</td>

@@ -39,7 +39,7 @@
                 </button>
                 <div class="collapse" id="issues-collapse">
                     <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                        <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Create Issue</a></li>
+                        <li><a href="<?php echo base_url() . '/'; ?>Editor/createIssue" class="link-dark d-inline-flex text-decoration-none rounded">Create Issue</a></li>
                         <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Notify Users</a></li>
                         <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Future Issues</a></li>
                         <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Back Issues</a></li>

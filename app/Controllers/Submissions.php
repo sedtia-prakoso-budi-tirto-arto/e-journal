@@ -40,7 +40,7 @@ class Submissions extends BaseController
         return;
     }
 
-    public function SubmissionSummary12541()
+    public function Summary12541()
     {
         echo view('template/header_editor');
         echo view('summary_12541');

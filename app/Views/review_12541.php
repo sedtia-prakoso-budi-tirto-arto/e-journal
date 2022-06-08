@@ -42,19 +42,19 @@
             <div class="link" style="margin-left: 50pt;">
                 <div class="row" style="text-align:center;">
                     <div class="col">
-                        <a href="<?php echo base_url() . '/'; ?>index.php/Submissions/SubmissionSummary12541" style=" font-size: 10pt;" class="text-decoration-none">SUMMARY</a>
+                        <a href="<?php echo base_url() . '/'; ?>Submissions/SubmissionSummary12541" style=" font-size: 10pt;" class="text-decoration-none">SUMMARY</a>
                     </div>
                     <div class="col">
-                        <a href="<?php echo base_url() . '/'; ?>index.php/Submissions/SubmissionReview12541" style="font-size: 10pt;" class="text-decoration-none">REVIEW</a>
+                        <a href="<?php echo base_url() . '/'; ?>Submissions/SubmissionReview12541" style="font-size: 10pt;" class="text-decoration-none">REVIEW</a>
                     </div>
                     <div class="col">
-                        <a href="<?php echo base_url() . '/'; ?>index.php/Submissions/SubmissionEditing12541" style="font-size: 10pt;" class="text-decoration-none">EDITTING</a>
+                        <a href="<?php echo base_url() . '/'; ?>Submissions/SubmissionEditing12541" style="font-size: 10pt;" class="text-decoration-none">EDITTING</a>
                     </div>
                     <div class="col">
-                        <a href="<?php echo base_url() . '/'; ?>index.php/Submissions/SubmissionHistory12541" style="font-size: 10pt;" class="text-decoration-none">HISTORY</a>
+                        <a href="<?php echo base_url() . '/'; ?>Submissions/SubmissionHistory12541" style="font-size: 10pt;" class="text-decoration-none">HISTORY</a>
                     </div>
                     <div class="col">
-                        <a href="<?php echo base_url() . '/'; ?>index.php/Submissions/SubmissionReferences12541" style="font-size: 10pt;" class="text-decoration-none">REFERENCES</a>
+                        <a href="<?php echo base_url() . '/'; ?>Submissions/SubmissionReferences12541" style="font-size: 10pt;" class="text-decoration-none">REFERENCES</a>
                     </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@
                     <tbody style="text-align :left;">
                         <tr style="border-style: hidden !important;">
                             <td colspan="2">Authors</td>
-                            <td colspan="8">Cyntia Niani</td>
+                            <td colspan="8">Cyntia Niani &nbsp; &nbsp; <a href="<?php echo base_url() . '/'; ?>User/email" class="icon"><img src="https://iptek.its.ac.id/lib/pkp/templates/images/icons/mail.gif" width="16" height="14" alt="Mail"></a></td>
                         </tr>
                         <tr style="border-style: hidden !important;">
                             <td colspan="2">Title</td>
@@ -115,7 +115,7 @@
                 <div class="row">
                     <div class="col fs-5 fw-semibold">PeerReview</div>
                     <div class="col fs-6">Round 1</div>
-                    <div class="col" style="margin-left:-150px;"><a href="" class="text-decoration-none" style="font-size:10pt;">Select Reviewer</a></div>
+                    <div class="col" style="margin-left:-150px;"><a href="<?php echo base_url() . '/'; ?>Editor/selectReviewer" class="text-decoration-none" style="font-size:10pt;">Select Reviewer</a></div>
                     <div class="col" style="margin-left:-150px;"><a href="" class="text-decoration-none" style="font-size:10pt;">View Regrets, Cancels, Previous Rounds</a></div>
                 </div>
             </div>
@@ -168,7 +168,7 @@
                         </tr>
                         <tr style="border-style: hidden !important;">
                             <td colspan="2">Notify Author</td>
-                            <td colspan="8"> &nbsp; &nbsp; &nbsp; Editor/Author Email Record &nbsp; &nbsp; &nbsp; No Comments</td>
+                            <td colspan="8"> <a href="<?php echo base_url() . '/'; ?>editor/emailEditorDecisionComment" class="icon"><img src="https://iptek.its.ac.id/lib/pkp/templates/images/icons/mail.gif" width="16" height="14" alt="Mail"></a> &nbsp; &nbsp; Editor/Author Email Record &nbsp; &nbsp; <a href="<?php echo base_url() . '/'; ?>editor/viewEditorDecisionComments" class="icon"><img src="https://iptek.its.ac.id/lib/pkp/templates/images/icons/comment.gif" width="16" height="14" alt="Comment"></a> &nbsp; &nbsp; No Comments</td>
                         </tr>
                         <tr style="border-style: hidden !important;">
                             <td colspan="2">Editor</td>

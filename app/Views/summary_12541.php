@@ -156,7 +156,7 @@
                 </table>
             </div>
             <div class="fs-5 mt-3 fw-semibold pb-2" style="margin-left: 50pt;">Submission Metadata</div>
-            <a href="" class="mt-2 pb-2 text-decoration-none" style="margin-left: 50pt; font-size:10pt;">Edit Metadata</a>
+            <a href="<?php echo base_url() . '/'; ?>Editor/metadata" class="mt-2 pb-2 text-decoration-none" style="margin-left: 50pt; font-size:10pt;">Edit Metadata</a>
             <div class="fs-6 mt-2 fw-semibold pb-2" style="margin-left: 50pt;">Authors</div>
             <div class="tabel" style="text-align:left; margin-left:50pt; font-size:10pt;">
                 <div class="row">

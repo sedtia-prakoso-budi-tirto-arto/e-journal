@@ -3,13 +3,13 @@
         <div class="p-3 bg-white position-sticky">
             <ul class="nav border-bottom" style="padding-bottom: 16pt; margin-left:50pt;">
                 <li class="nav-item">
-                    <a href=" <?php echo base_url() . '/'; ?>index.php/home" class="mb-3 link-dark text-decoration-none fs-6 fst-italic">
+                    <a href=" <?php echo base_url() . '/'; ?>home" class="mb-3 link-dark text-decoration-none fs-6 fst-italic">
                         Home
                     </a>
                 </li>
                 <li class="nav-item"> >> </li>
                 <li class="nav-item">
-                    <a href=" <?php echo base_url() . '/'; ?>index.php/About" class="mb-3 link-dark text-decoration-none fs-6 fst-italic">
+                    <a href=" <?php echo base_url() . '/'; ?>About" class="mb-3 link-dark text-decoration-none fs-6 fst-italic">
                         About the Journal
                     </a>
                 </li>
@@ -21,7 +21,7 @@
                         People
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownCenterBtn">
-                        <li><a class="dropdown-item" href="<?php echo base_url() . '/'; ?>index.php/EditorialTeam">Editorial Team</a></li>
+                        <li><a class="dropdown-item" href="<?php echo base_url() . '/'; ?>EditorialTeam">Editorial Team</a></li>
                     </ul>
                 </div>
                 <div class="dropdown-center mt-3" style="margin-left: 50pt;">
