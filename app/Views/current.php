@@ -26,7 +26,7 @@
             <table class="tocArticle" width="100%" style="margin-left: 50pt; font-size:10pt;">
                 <tbody>
                     <tr valign="top">
-                        <td class="tocTitle"><a href="https://iptek.its.ac.id/index.php/itj/article/view/12515">Flexural And Shear Behaviour Of Reinforced Concrete Slab With Pvc Pipe As A Cavity Forming In Two-Way System</a></td>
+                        <td class="tocTitle"><a href="<?php echo base_url() . '/'; ?>article/view">Flexural And Shear Behaviour Of Reinforced Concrete Slab With Pvc Pipe As A Cavity Forming In Two-Way System</a></td>
                         <td class="tocGalleys">
                             <a href="https://iptek.its.ac.id/index.php/itj/article/view/12515/6563" class="file">PDF</a>
 
