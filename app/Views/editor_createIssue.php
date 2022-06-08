@@ -17,20 +17,18 @@
 
             <div id="main" style="margin-left: 50pt;">
 
-                <h2>Create Issue</h2>
+                <h2 class="mt-2">Create Issue</h2>
 
+                <hr>
 
                 <div id="content">
 
 
-                    <div class="row">
-                        <div class="col"><a class="text-decoration-none" href="<?php echo base_url() . '/'; ?>Editor_createIssue">Create Issue</a></div>
-                        <div class="col"><a class="text-decoration-none" href="https://iptek.its.ac.id/index.php/itj/editor/futureIssues">Future Issues</a></div>
-                        <div class="col"><a class="text-decoration-none" href="https://iptek.its.ac.id/index.php/itj/editor/backIssues">Back Issues</a></div>
+                    <div class="row" style="margin-top: -10pt; margin-bottom: 20pt;">
+                        <div class="col"><a class="text-decoration-none" href="<?php echo base_url() . '/'; ?>Editor/createIssue">Create Issue</a></div>
+                        <div class="col"><a class="text-decoration-none" href="<?php echo base_url() . '/'; ?>Editor/futureIssue">Future Issues</a></div>
+                        <div class="col"><a class="text-decoration-none" href="<?php echo base_url() . '/'; ?>Editor/backIssue">Back Issues</a></div>
                     </div>
-
-
-                    <br>
 
                     <form action="#">
                         Issue: <select name="issue" class="selectMenu" onchange="if(this.options[this.selectedIndex].value > 0) location.href='https://iptek.its.ac.id/index.php/itj/editor/issueToc/ISSUE_ID'.replace('ISSUE_ID', this.options[this.selectedIndex].value)" size="1">

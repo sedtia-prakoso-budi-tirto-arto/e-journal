@@ -75,4 +75,13 @@ class Editor extends BaseController
         echo view('template/footer');
         return;
     }
+
+    public function backIssue()
+    {
+        echo view('template/header_editor');
+        echo view('editor_backIssue');
+        echo view('template/sidebar_editor');
+        echo view('template/footer');
+        return;
+    }
 }
