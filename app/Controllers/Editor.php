@@ -84,4 +84,31 @@ class Editor extends BaseController
         echo view('template/footer');
         return;
     }
+
+    public function issueToc()
+    {
+        echo view('template/header_editor');
+        echo view('editor_issueToc');
+        echo view('template/sidebar_editor');
+        echo view('template/footer');
+        return;
+    }
+
+    public function issueData()
+    {
+        echo view('template/header_editor');
+        echo view('editor_issueData');
+        echo view('template/sidebar_editor');
+        echo view('template/footer');
+        return;
+    }
+
+    public function issueGalley()
+    {
+        echo view('template/header_editor');
+        echo view('editor_issueGalley');
+        echo view('template/sidebar_editor');
+        echo view('template/footer');
+        return;
+    }
 }

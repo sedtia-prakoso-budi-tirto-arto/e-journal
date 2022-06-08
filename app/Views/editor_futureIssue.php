@@ -62,7 +62,7 @@
                                     <td colspan="3" class="headseparator">&nbsp;</td>
                                 </tr>
                                 <tr valign="top">
-                                    <td><a href="https://iptek.its.ac.id/index.php/itj/editor/issueToc/790" class="action">Vol 2, No 1 (2023)</a></td>
+                                    <td><a href="<?php echo base_url() . '/'; ?>Editor/issueToc" class="action">Vol 2, No 1 (2023)</a></td>
                                     <td>3</td>
                                     <td align="right"><a href="" onclick="return confirm('Are you sure you want to permanently delete this issue?')" class="action">Delete</a></td>
                                 </tr>
